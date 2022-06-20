@@ -7,9 +7,103 @@
               <!-- Layout Demo -->
               <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Firm Control /</span> Branch</h4>
                       <div class="demo-inline-spacing">
+                      <a href="../soft/addfirm.php" class="btn btn-primary">Add Branch</a>
+                
+                        
                         <!--Add Branch Prompt-->
-                        <button type="button" class="btn btn-primary" href="/soft/addfirm.php">Primary</button>
-
+                        <div class="modal fade" id="largeModal" tabindex="-1" aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel3">Edit Branch</h5>
+                              <button
+                                type="button"
+                                class="btn-close"
+                                data-bs-dismiss="modal"
+                                aria-label="Close"
+                              ></button>
+                            </div>
+                            <div class="modal-body">  
+                              <div class="card-body">
+                                <form>
+                                  <div class="row g-2" style="padding-bottom:1%">
+                                      <div class="col mb-0">
+                                        <label for="nameLarge" class="form-label">Firm Name</label>
+                                        <input type="text" id="nameLarge" class="form-control" placeholder="Firm Name" />
+                                      </div>
+                                      <div class="col mb-0">
+                                        <label for="nameLarge" class="form-label">Address 1</label>
+                                        <input type="text" id="nameLarge" class="form-control" placeholder="Address 1" />
+                                      </div>
+                                  </div>
+                                  <div class="row g-2" style="padding-bottom:1%">
+                                      <div class="col mb-0">
+                                        <label for="nameLarge" class="form-label">Address 2</label>
+                                        <input type="text" id="nameLarge" class="form-control" placeholder="Address 2" />
+                                      </div>
+                                      <div class="col mb-0">
+                                        <label for="nameLarge" class="form-label">Address 3</label>
+                                        <input type="text" id="nameLarge" class="form-control" placeholder="Address 3" />
+                                      </div>
+                                  </div>
+                                  <div class="row g-2" style="padding-bottom:1%">
+                                      <div class="col mb-0">
+                                      <label for="nameLarge" class="form-label">Country</label>
+                                        <input type="text" id="nameLarge" class="form-control" placeholder="Country" />
+                                      </div>
+                                      <div class="col mb-0">
+                                      <label for="nameLarge" class="form-label">State</label>
+                                        <input type="text" id="nameLarge" class="form-control" placeholder="State" />
+                                      </div>
+                                  </div>
+                                    <div class="row g-2" style="padding-bottom:1%">
+                                      <div class="col mb-0">
+                                      <label for="nameLarge" class="form-label">District</label>
+                                        <input type="text" id="nameLarge" class="form-control" placeholder="District" />
+                                      </div>
+                                      <div class="col mb-0">
+                                      <label for="nameLarge" class="form-label">Location</label>
+                                        <input type="text" id="nameLarge" class="form-control" placeholder="Location" />
+                                      </div>
+                                        </div>
+                                        <div class="row g-2" style="padding-bottom:1%">
+                                          <div class="col mb-0">
+                                          <label for="nameLarge" class="form-label">Pin code</label>
+                                            <input type="text" id="nameLarge" class="form-control" placeholder="Pin code" />
+                                          </div>
+                                          <div class="col mb-0">
+                                          <label for="nameLarge" class="form-label">Website</label>
+                                            <input type="text" id="nameLarge" class="form-control" placeholder="Website" />
+                                          </div>
+                                        </div><div class="row g-2" style="padding-bottom:1%">
+                                          <div class="col mb-0">
+                                          <label for="nameLarge" class="form-label">Email Address</label>
+                                            <input type="text" id="nameLarge" class="form-control" placeholder="Email Address" />
+                                          </div>
+                                          <div class="col mb-0">
+                                          <!-- <div class="form-check form-switch mb-2"> -->
+                                            <!-- <div style="padding-top:2.5rem;"> -->
+                                            <label for="defaultSelect" class="form-label">Active/Deactivate</label>
+                                              <select id="defaultSelect" class="form-select">
+                                                <option value="" disabled selected hidden></option>
+                                                <option value="1">Activate</option>
+                                                <option value="2">Deactivate</option>
+                                              </select>
+                                            <!-- </div> -->
+                                          </div>
+                                        </div>
+                                    <div class="row justify-content-inherit" style="padding-top:1.5rem;">
+                                    <div class="col-sm-10">
+                                      <button type="submit" class="btn btn-primary">Save</button>
+                                    </div>
+                                  </div>
+                                </form>
+                              </div>
+                            </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     <!--END Add Branch Prompt-->
                     <!--Delete Prompt-->
                     <div class="modal fade" id="smallModal" tabindex="-1" aria-hidden="true">
