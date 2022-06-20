@@ -94,7 +94,7 @@
                                         </div>
                                     <div class="row justify-content-inherit" style="padding-top:1.5rem;">
                                     <div class="col-sm-10">
-                                      <button type="submit" class="btn btn-primary">Save</button>
+                                      <button type="submit" class="btn btn-primary">Update</button>
                                     </div>
                                   </div>
                                 </form>
